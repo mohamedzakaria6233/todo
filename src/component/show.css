@@ -1,0 +1,48 @@
+.show{
+    background-color: gray;
+    width: 90%;
+    margin: 0 auto ;
+    min-height:500px ;
+    font-size: 35px;
+    color: white;
+}
+.wait{
+    text-align: center;
+    color: yellow;
+    font-size: 50px;
+
+}
+.error{
+    text-align: center;
+    color:red;
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+.book{
+    background-color: blue;
+    display: flex;
+    flex-flow: row nowrap;
+    border: 3px dashed red;
+    width: 80%;
+    padding: 20px;
+    height: 60px;
+    margin: 10px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.read{
+    background-color: green;
+    font-size: 35px;
+    color: white;
+    padding: 10px;
+}
+.delete{
+    background-color: red;
+    font-size: 35px;
+    color: white;
+    padding: 10px;
+}
+button:hover{
+    cursor: pointer;
+}
